@@ -14,10 +14,10 @@
 3. Create a `.env` file with the following:
 
 ## env
-MONGO_URI=mongodb://localhost:27017/authapp
+mongodb+srv://agriculturistmukesh11:Mukeshkanna%4011@atlas.gdo2x.mongodb.net/register
 JWT_SECRET=your_jwt_secret_key
 
-API Endpoints
+## API Endpoints//
 
 ## Register User
 
@@ -35,4 +35,5 @@ GET /api/auth/user
 Headers: { Authorization: Bearer <JWT-TOKEN> }
 Response: { _id, username, email }
 
-## API Documentation Link
+## Detailed documentation for each API endpoint in Postman
+https://documenter.getpostman.com/view/38564093/2sAYBRGttf
