@@ -2,7 +2,7 @@ const jwt = require('jsonwebtoken');
 
 exports.protect = (req, res, next) => {
     // Get the token from the Authorization header
-    const token = req.headers.authorization?.split(" ")[1];
+    const token = req.headers.authorization.split(" ")[1];
 
     // If no token is provided, respond with 401
     if (!token) return res.status(401).json({ message: "No token, authorization denied" });
